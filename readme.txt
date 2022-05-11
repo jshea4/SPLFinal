@@ -1,5 +1,5 @@
 SPL Final Project: Code Example Explanations
-Lua vs. C++
+Lua vs. C++, using the lua interpretor and g++
 
 1.	Object-Oriented vs. Procedural
 This is perhaps the biggest difference between C++ and Lua: C++ is object-oriented, whereas Lua is purely procedural. Consider the following implementation of the infix traversal of a binary tree. With C++, we can use a Node class to represent the tree, but in Lua, we have to represent the entire tree with Lua’s Table data structure, which are essentially associative arrays; Lua does not support OOP.
